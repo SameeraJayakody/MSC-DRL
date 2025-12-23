@@ -11,15 +11,17 @@ from pathlib import Path
 # PROJECT PATH SETUP (CRITICAL)
 # -------------------------------
 ROOT_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT_DIR / "data" / "results"
-REPORTS_DIR = ROOT_DIR / "reports" / "tables"
+# DATA_DIR = ROOT_DIR / "data" / "results"
+DATA_DIR = "/home/jayakodymaduranga/MSC-DRL"
+# REPORTS_DIR = ROOT_DIR / "reports" / "tables"
+REPORTS_DIR = "/home/jayakodymaduranga/MSC-DRL"
 
 
 # -------------------------------
 # NEW PATHS FOR REAL-TIME MODE
 # -------------------------------
-CLEAN_DIR = ROOT_DIR / "data" / "cleaned"
-MODEL_DIR = ROOT_DIR / "data" / "models"
+CLEAN_DIR = "/home/jayakodymaduranga/MSC-DRL"
+MODEL_DIR = "/home/jayakodymaduranga/MSC-DRL"
 
 
 
