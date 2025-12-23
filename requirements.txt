@@ -14,4 +14,8 @@ sb3-contrib>=2.1
 streamlit>=1.30
 streamlit-autorefresh>=1.0
 
+
 joblib>=1.2
+
+google-cloud-aiplatform
+google-cloud-logging
